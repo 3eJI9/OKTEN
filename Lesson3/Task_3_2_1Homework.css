@@ -1,0 +1,45 @@
+body {
+    margin: 70px;
+    background-color: #9fe2ff;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+#header {
+    border: 4px solid #189d9b;
+    height: 120px;
+    background-color: #002fa4;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#menu {
+    border: 4px solid #0d2c2b;
+    width: 170px;
+    background-color: #ef7fef;
+}
+
+.post {
+    border: 4px solid #a433a4;
+    height: 130px;
+    width: 300px;
+    background-color: #ff7402;
+}
+
+.post:first-child {
+    margin-bottom: 10px;
+                    }
+
+#footer {
+    border: 4px solid #15ab2d;
+    height: 120px;
+    background-color: #e7e706;
+}

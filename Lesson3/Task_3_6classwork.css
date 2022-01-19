@@ -1,0 +1,32 @@
+body {
+    margin: 20px;
+    background-color: #9fe2ff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.top, .bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top > div {
+    width: 245px;
+    height:350px;
+    background-color: #bd0d1c;
+}
+
+.center {
+    height: 150px;
+    background-color: #052b57;
+    margin: 10px 0;
+}
+
+.bot > div {
+    width: 160px;
+    height: 160px;
+    background-color: #750303;
+}

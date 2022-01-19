@@ -1,0 +1,44 @@
+    body {
+
+                margin: 30px;
+    }
+    .container {
+    border: 2px solid;
+    height:auto;
+    background-color: #000000;
+
+    /*align-items: flex-start;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+
+                        }
+
+    .aaa {
+                height: 150px;
+                background-color: #791b1b;
+                margin: 4px;
+              }
+
+    .container-aaa {
+                display: flex;
+                /*margin-right: 5px;*/
+                margin: 2px;
+
+
+                        }
+
+    .bbb {
+
+                width: 75%  ;
+                background-color: #05650e;
+                margin: 2px;
+            }
+
+    .ccc {
+
+                height: 500px;
+                width: 24.5%;
+                background-color: #053998;
+                margin: 2px;
+                margin-left: 4px;
+              }

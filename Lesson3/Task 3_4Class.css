@@ -1,0 +1,41 @@
+body {
+    margin: 70px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: 4px solid #590505;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+
+.top {
+    height: 150px;
+    margin-bottom: 5px;
+    background-color: #411b1b;
+}
+
+.left {
+    width: 64%;
+}
+
+.center, .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box > div {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 5px;
+    background-color: black;
+}
+
+.right {
+    background-color: #263326;
+    height: 325px;
+    width: 35%;
+}
