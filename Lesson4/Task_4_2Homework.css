@@ -1,0 +1,49 @@
+.body {
+    margin: 30px;
+    background-color: #85f5f5;
+      }
+
+.container {
+    border: 5px solid #040504;
+    height: auto;
+
+}
+
+.h200 {
+    height: 150px;
+}
+
+.h450 {
+    height: 450px;
+}
+
+.mg {
+    margin: 2px;
+    }
+.wd33 {
+    width: 33.4%;
+      }
+.wd66 {
+    width: 66%;
+}
+
+.df {
+    display: flex;
+}
+.mr {
+    margin-right: 0px;
+}
+
+.bc {
+    background-color: #101f44;
+}
+
+.bc2 {
+    background-color: #540707;
+}
+
+.bc3 {
+    background-color: #4d0e4d;
+}
+
+

@@ -1,0 +1,101 @@
+body {
+    margin: 60px;
+    background-color: #b5d3e3;
+}
+
+.container {
+    max-width: 1222px;
+    margin: 0 auto;
+    border: 8px solid #3f3b3b;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.A, .B, .C, .D {
+    background-color: #3a3a33;
+}
+
+.A {
+    height: 200px;
+}
+
+.container-B {
+    width: 68%;
+}
+
+.container-A, .container-C {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.B {
+    height: 300px;
+}
+
+.D {
+    width: 261px;
+    height: 261px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.C {
+    height: 570px;
+    width: 31%;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    .container {
+        border: 8px solid #da7192;
+        border-radius: 20px;
+        padding: 15px;
+
+    }
+    body
+    { background-color: #dc5a5a
+    }
+    .container-A {
+        display: block;
+    }
+
+    .container-A, .container-C {
+        margin-top: 10px;
+    }
+
+    .container-B {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .A, .B, .C, .D {
+        border-radius: 10px;
+    }
+
+    .A {
+        height: 100px;
+    }
+
+    .B {
+        height: 200px;
+    }
+
+    .D {
+        height: 188px;
+        width: 188px;
+    }
+
+    .C {
+        height: 200px;
+        width: 100%;
+    }
+
+    .mr-15 {
+        margin-right: 15px;
+    }
+
+
