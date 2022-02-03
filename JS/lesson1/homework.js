@@ -121,8 +121,8 @@
 //          let firstName = 'Andrii';
 //          let lastName = 'Dzelinskyi';
 //          let middleName = 'none'
-//          let human = (firstName + lastName + middleName);
-//          console.log(human);
+//          let person = (firstName + lastName + middleName);
+//          console.log(person);
 
 
 //          ЗАВДАННЯ4

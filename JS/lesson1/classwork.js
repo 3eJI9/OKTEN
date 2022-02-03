@@ -36,61 +36,63 @@
 
 
 
-//        let book = []
-//
-//        book[10] = {
-//        title: 'Atomic Habits',
-//        page: 320,
-//        genre: 'Psychology',
-//        authors: {
-//        author1: {
-//        name: 'Clear',
-//        surname: 'James',
-//        },
-//        author2: {
-//        name: 'Sinek',
-//        surname: 'Simon',
-//        }
-//        }
-//        }
-//        book[15] = {
-//        title: 'Deep Work',
-//        str: 304,
-//        genre: 'Psychology',
-//        authors: {
-//        author1: {
-//        name: 'Cal',
-//        surname: 'Newport',
-//        }
-//        }
-//        }
-//        book[20] = {
-//        title: 'No Rules Rules',
-//        str: 320,
-//        genre: 'Culture in the workspace',
-//        authors: {
-//        author1: {
-//        name: 'Reed',
-//        surname: 'Hastings',
-//        },
-//        author2: {
-//        name: 'Erin',
-//        surname: 'Meyer',
-//        }
-//        }
-//        }
+
+        let book = []
 
 
-//          console.log(book[10]);
-//          console.log(book[15]);
-//          console.log(book[20]);
+        book [0] =  {
+        title: 'Atomic Habits',
+        page: 320,
+        genre: 'Psychology',
+        authors: {
+        author1: {
+        name: 'Clear',
+        surname: 'James',
+        },
+        author2: {
+        name: 'Sinek',
+        surname: 'Simon',
+        }
+        }
+        }
+        book[1] = {
+        title: 'Deep Work',
+        str: 304,
+        genre: 'Psychology',
+        authors: {
+        author1: {
+        name: 'Cal',
+        surname: 'Newport',
+        }
+        }
+        }
+        book[2] = {
+        title: 'No Rules Rules',
+        str: 320,
+        genre: 'Culture in the workspace',
+        authors: {
+        author1: {
+        name: 'Reed',
+        surname: 'Hastings',
+        },
+        author2: {
+        name: 'Erin',
+        surname: 'Meyer',
+        }
+        }
+        }
+
+
+          console.log(book[0]);
+          console.log(book[1]);
+          console.log(book[2]);
 
 //      ЗАВДАННЯ5
 //      Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
 //      Значення площі зберігати в змінній s.
 
-//      let height = 23;
-//      let width = 10;
+//      const height = 23;
+//      const width = 10;
 //      let s = height * width;
 //      console.log(s);
 
