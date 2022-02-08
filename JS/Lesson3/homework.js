@@ -153,7 +153,7 @@
 //      13) Створити цикл for на 100 ітерацій з кроком 3.
 //      Вивести поточний номер кроку через console.log та document.write
 
-//      for (let i = 0; i < 100; i=i+3) {
+//      for (let i = 0; i < 100; i+=3) {
 //      console.log(i, 'Number Step');
 //      document.write(`<h4>${i} Number step</h4>`)
 //      }
