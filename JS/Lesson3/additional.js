@@ -34,11 +34,11 @@
 
 //      d. Заповнити масив 20ма рандомними числами в діапазоні від 8 до 732 (Google: Generate random number JS)
 
-//      for  (let i = arr.length; i < 140; i++) {
+//      for  (let i = arr.length; i < 20; i++) {
 //      arr[i] = Math.floor(Math.random() * 724) + 8;
 //      }
 //      console.log(arr);
-//      for.push([i])
+
 
 //      2. Вивести за допомогою console.log кожен третій елемент
 
