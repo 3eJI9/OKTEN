@@ -60,9 +60,8 @@
 
 //      let num = [33, 190, 25, 14, 590, 16, 007, 12, 5, 92];
 //      for (let i = 0; i < num.length; i++) {
-//      let numElement = num[i];
-//      console.log(numElement);
-//     }
+//      console.log(num[i]);
+//      }
 
 //      5) Створити масив з 10 строкових елементів. Вивести в консоль всі його елементи в циклі.
 

@@ -26,7 +26,7 @@
 
 //      c. Заповнити масив 20ма рандомними числами. (Google: Generate random number JS)
 
-//      for (let i = arr.length; i < 120; i++) {
+//      for (let i = arr.length; i < 20; i++) {
 //      arr[i] = Math.floor(Math.random() * 100);
 //      }
 //      console.log(arr);
@@ -34,11 +34,11 @@
 
 //      d. Заповнити масив 20ма рандомними числами в діапазоні від 8 до 732 (Google: Generate random number JS)
 
-//      for (let i = arr.length; i < 140; i++) {
+//      for  (let i = arr.length; i < 140; i++) {
 //      arr[i] = Math.floor(Math.random() * 724) + 8;
 //      }
 //      console.log(arr);
-
+//      for.push([i])
 
 //      2. Вивести за допомогою console.log кожен третій елемент
 
@@ -175,6 +175,10 @@
 //      masFirst[i] = masNum[i];
 //      }
 //      console.log(masNum);
+
+//       let numArray = [4, 14, 44, 33, 15, 16, 89, 18, 19, 20, 944, 861, 1888];
+//       let newArray = numArray.slice();
+
 
 
 //      - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
