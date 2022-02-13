@@ -61,20 +61,21 @@
 //          [0,1,2,3,4] => [1,2,3,4,0]
 //          [0,0,1,0]   => [1,0,0,0]
 
-//          let foo = (arr, index) => {
-//          let arrA = [];
-//          let arrAa = [];
-//
-//          for (let i = 0; i < arr.length; i++) {
-//          if (arr[i] > 0) {
-//          arrA.push(arr[i]);
-//          } else if (arr[i] === 0) {
-//          }
-//          }
-//          arr = arrA.concat(arrAa);
-//          console.log(arr);
-//          }
-//          foo([1,0,6,0,3], 0);
-//          foo([0,1,2,3,4], 1);
-//          foo([0,0,1,0], 2);
+          let mas = (arr) => {
+          let arrNew = [];
+          let arrNewA = [];
+
+          for (let i = 0; i < arr.length; i++) {
+          if (arr[i] > 0) {
+          arrNew.push(arr[i]);
+          } else if (arr[i] === 0) {
+              arrNewA.push(arr[i])
+          }
+          }
+          arr = arrNew.concat(arrNewA);
+          console.log(arr);
+          }
+          mas ([1,0,6,0,3]);
+          mas ([0,1,2,3,4]);
+          mas ([0,0,1,0]);
 
