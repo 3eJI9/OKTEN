@@ -61,18 +61,17 @@
 //          [0,1,2,3,4] => [1,2,3,4,0]
 //          [0,0,1,0]   => [1,0,0,0]
 
-          let mas = (arr) => {
-          let arrNew = [];
-          let arrNewA = [];
-
+          let moveZeroToEnd = (arr) => {
+          let positiveNumbers = [];
+          let zeroNumbers = [];
           for (let i = 0; i < arr.length; i++) {
           if (arr[i] > 0) {
-          arrNew.push(arr[i]);
+              positiveNumbers.push(arr[i]);
           } else if (arr[i] === 0) {
-              arrNewA.push(arr[i])
+              positiveNumbers.push(arr[i])
           }
           }
-          arr = arrNew.concat(arrNewA);
+          arr = positiveNumbers.concat(zeroNumbers);
           console.log(arr);
           }
           mas ([1,0,6,0,3]);
