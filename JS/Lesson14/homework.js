@@ -1,7 +1,7 @@
-        // Зробити свій розпорядок дня. // // У вас має бути більше 10 асинхронних дій з рандомними затримками.
-        // Вам необхідно синхронізувати всі свої дії за допомогою промісів та async await (Код має бути написаний окремо)
-// Затримка має бути НЕ в порядку зростання, а будь яка. При тому ваші дії мають бути синхронізовані.
-// // Напиклад. // Прикнутись - 0.3с // Поснідати - 1с // Піти в душ - 0.5с // Дочекатись автобус - 3с // Пообідати - 1с // // І так далі
+//          Зробити свій розпорядок дня. // // У вас має бути більше 10 асинхронних дій з рандомними затримками.
+//          Вам необхідно синхронізувати всі свої дії за допомогою промісів та async await (Код має бути написаний окремо)
+//          Затримка має бути НЕ в порядку зростання, а будь яка. При тому ваші дії мають бути синхронізовані.
+// //       Наприклад. // Прокинутися - 0.3с // Поснідати - 1с // Піти в душ - 0.5с // Дочекатись автобус - 3с // Пообідати - 1с // // І так далі
 
 
 // function goodMorning() {
@@ -138,7 +138,7 @@
             setTimeout(() => {
             //
             resolve(console.log('wash'))
-            }, 2000)
+            }, 1000)
             })
             }
 
@@ -147,7 +147,7 @@
             setTimeout(() => {
             //
             resolve(console.log('breakfast'))
-            }, 2000)
+            }, 1500)
             })
 
             }
@@ -157,7 +157,7 @@
             setTimeout(() => {
             //
             resolve(console.log('go to job'))
-            }, 2000)
+            }, 3000)
             })
             }
 
@@ -166,7 +166,7 @@
             setTimeout(() => {
             //
             resolve(console.log('lunch'))
-            }, 1000)
+            }, 2500)
             })
 
             }
@@ -176,7 +176,7 @@
             setTimeout(() => {
             //
             resolve(console.log('go to home'))
-            }, 1000)
+            }, 500)
             })
             }
 
@@ -185,7 +185,7 @@
             setTimeout(() => {
             //
             resolve(console.log('Running'))
-            }, 2000)
+            }, 4500)
             })
             }
 
@@ -194,7 +194,15 @@
             setTimeout(() => {
             //
             resolve(console.log('Read Book'))
-            }, 900)
+            }, 350)
+            })
+            }
+
+            function meditite() {
+            return new Promise((resolve, reject) => {
+            setTimeout(() => {
+            console.log('meditite')
+            }, 5000)
             })
             }
 
@@ -205,6 +213,7 @@
             }, 900)
             })
             }
+
         async function myDay() {
         try {
         const getWake = await Wake()
@@ -215,6 +224,7 @@
         const getGoToHome = await goToHome()
         const getRunning = await running()
         const getreadBook = await readBook()
+        const getmeditite = await meditite()
         const getsleep = await sleep()
 
         console.log(getWake)
@@ -225,9 +235,10 @@
         console.log(getGoToHome)
         console.log(getRunning)
         console.log(getreadBook)
+        console.log(getmeditite)
         console.log(getSleepMED)
-    } catch (e) {
+        } catch (e) {
         console.log(e)
-    }
-}
+        }
+        }
         myDay()
